@@ -1,0 +1,16 @@
+<Bones>
+    <Bone idx="4" gfx="naija/energyform-backarm1"  />
+    <Bone idx="5" gfx="naija/energyform-backarm2"  />
+    <Bone idx="10" gfx="naija/energyform-backarm3"/>
+    <Bone idx="6" gfx="naija/energyform-backleg1" />
+    <Bone idx="7" gfx="naija/energyform-backleg2"  />
+    <Bone idx="12" gfx="naija/energyform-backleg3"  />
+    <Bone idx="0" gfx="naija/energyform-body"  />
+    <Bone idx="8" gfx="naija/energyform-frontleg1"  />
+    <Bone idx="9" gfx="naija/energyform-frontleg2"  />
+    <Bone idx="13" gfx="naija/energyform-frontleg3"  />
+    <Bone idx="1" gfx="naija/fg-head" />
+    <Bone idx="2" gfx="naija/energyform-frontarm1"  />
+    <Bone idx="3" gfx="naija/energyform-frontarm2"  />
+    <Bone idx="11" gfx="naija/energyform-frontarm3"  />
+</Bones>

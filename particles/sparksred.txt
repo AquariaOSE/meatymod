@@ -1,0 +1,25 @@
+[Emitter]
+SpawnLocal = 1
+Texture = Particles/Spark
+Shape = Point
+Blend = Add
+Width = 32
+Height = 32
+Life = 1
+RandomVelocityMagnitude = 150
+RandomRotationRange = 360
+RandomSpawnRadiusRange = 100
+SpawnLocal = 1
+[Number]
+0 80
+[Color]
+0 1 0.1 0.1
+[Alpha]
+0 0
+0.1 1.0
+0.5 0.9
+1.0 0
+[Scale]
+0 1 1
+0.2 1 1
+1 2 2

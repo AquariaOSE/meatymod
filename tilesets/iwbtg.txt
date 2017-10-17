@@ -1,0 +1,11 @@
+0 black
+1 black 128 128
+2 black 128 128
+3 black 128 128 
+4 black 128 128
+5 iwbtg/wall
+6 iwbtg/walltop
+7 iwbtg/spike
+8 iwbtg/treetrunk
+9 iwbtg/treetop
+10 iwbtg/cloud

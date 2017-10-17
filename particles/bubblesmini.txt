@@ -1,0 +1,27 @@
+EmitterUpdateCull = 3000
+[Emitter]
+Texture = Bubble
+Shape = Point
+Blend = Add
+Width = 16
+Height = 16
+Life = 10
+Influenced = 16
+DeathPrt = pop
+RandomScaleRange = 0.3 0.8
+RandomVelocityMagnitude = 5
+RandomRotationRange = 360
+InitialVelocity = 0 -50
+[Number]
+0 10
+[Color]
+0 1 1 1
+[Alpha]
+0 0
+0.01 0.3
+0.5 0.2
+1.0 0
+[Scale]
+0 0.5 0.5
+0.2 0.5 0.5
+1 1 1

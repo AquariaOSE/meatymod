@@ -1,0 +1,1 @@
+function init(me)    if node_isFlag(me, 0) then        createEntity("bandaid", "", node_getPosition(me))    endendfunction update(me, dt)endfunction activate(me)endfunction songNote(me, note)endfunction songNoteDone(me, note, done)end

@@ -1,0 +1,19 @@
+EmitterLife = 1
+[Emitter]
+Texture = particles/bubble
+Shape = Point
+Width = 64
+Height = 64
+Life = 1.15
+RandomVelocityMagnitude = 50
+RandomRotationRange = 360
+RandomScale = 0.18 0.3
+Gravity = 0 800
+[Number]
+0 40
+[Color]
+0 0.8 0 0
+[Alpha]
+0 0.75
+0.9 0.5
+1.0 0

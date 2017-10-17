@@ -1,0 +1,27 @@
+<AnimationLayers>
+    <AnimationLayer />
+</AnimationLayers>
+<Bones>
+    <Bone idx="8" gfx="barrel/bgstrut" pidx="-1" name="" fh="0" fv="0" gc="0" cr="0" cp="0 0" />
+    <Bone idx="9" gfx="barrel/bgstrut" pidx="-1" name="" fh="0" fv="0" gc="0" cr="0" cp="0 0" />
+    <Bone idx="10" gfx="barrel/bgstrut" pidx="-1" name="" fh="0" fv="0" gc="0" cr="0" cp="0 0" />
+    <Bone idx="11" gfx="barrel/bgstrut" pidx="-1" name="" fh="0" fv="0" gc="0" cr="0" cp="0 0" />
+    <Bone idx="12" gfx="barrel/bgstrut" pidx="-1" name="" fh="0" fv="0" gc="0" cr="0" cp="0 0" />
+    <Bone idx="13" gfx="barrel/bgstrut" pidx="-1" name="" fh="0" fv="0" gc="0" cr="0" cp="0 0" />
+    <Bone idx="14" gfx="barrel/bgstrut" pidx="-1" name="" fh="0" fv="0" gc="0" cr="0" cp="0 0" />
+    <Bone idx="15" gfx="barrel/bgstrut" pidx="-1" name="" fh="0" fv="0" gc="0" cr="0" cp="0 0" />
+    <Bone idx="16" gfx="barrel/bgstrut" pidx="-1" name="" fh="0" fv="0" gc="0" cr="0" cp="0 0" />
+    <Bone idx="0" gfx="barrel/side1" pidx="-1" name="" fh="0" fv="0" gc="1" cr="0" cp="0 0" />
+    <Bone idx="1" gfx="barrel/side2" pidx="-1" name="" fh="0" fv="0" gc="1" cr="0" cp="0 0" />
+    <Bone idx="2" gfx="barrel/side4" pidx="-1" name="" fh="0" fv="0" gc="1" cr="0" cp="0 0" />
+    <Bone idx="3" gfx="barrel/side3" pidx="-1" name="" fh="0" fv="0" gc="1" cr="0" cp="0 0" />
+    <Bone idx="4" gfx="barrel/side1" pidx="-1" name="" fh="0" fv="0" gc="1" cr="0" cp="0 0" />
+    <Bone idx="5" gfx="barrel/side2" pidx="-1" name="" fh="0" fv="0" gc="1" cr="0" cp="0 0" />
+    <Bone idx="6" gfx="barrel/middle1" pidx="-1" name="" fh="0" fv="0" gc="1" cr="0" cp="0 0" />
+    <Bone idx="7" gfx="barrel/middle2" pidx="-1" name="" fh="0" fv="0" gc="1" cr="0" cp="0 0" />
+</Bones>
+<Animations>
+    <Animation name="idle">
+        <Key e="0 0 -161 244 31 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 155 246 -27 4 0 0 0 0 0 0 0 0 2 -145 -288 -210 0 3 162 -287 209 0 4 313 -20 -90 0 5 -307 -26 91 0 6 -12 -89 0 0 7 -5 4 90 0 8 -185 10 -26 0 9 147 83 49 0 10 63 -137 31 0 11 77 84 -28 0 12 -128 -24 91 0 13 78 -288 12 0 14 -149 -138 14 0 15 8 134 -95 0 16 162 -162 -27 0 " />
+    </Animation>
+</Animations>

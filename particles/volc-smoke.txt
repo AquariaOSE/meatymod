@@ -1,0 +1,22 @@
+[Emitter]
+Texture = particles/cloud
+Shape = Point
+Width = 64
+Height = 64
+Life = 5
+RandomVelocityMagnitude = 20
+RandomRotationRange = 360
+Gravity = 0 -100
+[Number]
+0 15
+[Color]
+0 0.3 0.3 0.3
+[Alpha]
+0 0
+0.1 0.1
+0.3 0.4
+0.6 0.3
+1.0 0
+[Scale]
+0 2.5 2.5
+1 7.5 7.5

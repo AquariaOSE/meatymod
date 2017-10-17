@@ -1,0 +1,1 @@
+local function fun_map(t, f)    for i, e in pairs(t) do        t[i] = f(e)    endendreturn {    fun_map = fun_map}

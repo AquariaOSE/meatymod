@@ -1,0 +1,8 @@
+<Bones>
+    <Bone idx="0" gfx="angrybird/Body" />
+    <Bone idx="1" gfx="angrybird/wing" />
+    <Bone idx="2" gfx="angrybird/head" />
+    <Bone idx="3" gfx="angrybird/tail" />
+    <Bone idx="4" gfx="angrybird/wing" />
+    <Bone idx="5" gfx="angrybird/feet" />
+</Bones>

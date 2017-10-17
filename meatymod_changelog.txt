@@ -1,0 +1,39 @@
+
+2nd July 2012  - Fixed oversight that the time counter would not start if only arrow keys were used for movement
+
+1st July 2012  - Added full gore mode: more & persistent blood & gibs (by request, not on by default. You asked for it!)
+               - Made volcano area warp zone easier to see
+               - Minor changes to some entities; nothing that would change gamplay
+
+14th June 2012 - Fixed blue barriers in map energized
+
+10th June 2012 - Forgot to add teleport return nodes to the last world (main_retribution map).
+                 This caused always beginning at the entrance warp, instead of the warp
+                 returned from. (For example when exiting from a level back to the map)
+
+9th June 2012 - Fixed another bug that could cause saw shooters to stop shooting
+
+25th May 2012 - Fixed problem on last level map ("Retibution") where Naija would not stay
+                invincible after meeting Li, allowing to die and respawn, which would make
+                the map impossible to finish.
+
+24th May 2012 - Added a bunch of replacement graphics to get rid of desert/volcano overlays;
+                for low-end PCs with low fillrate.
+                Changed darkness in the volcano hub map so that it's not completely dark
+                without the overlays.
+              - Added one Q&A entry to the readme
+
+== Meatymod v1.01 ==
+
+21th May 2012 - Fixed saw shooters randomly stopping to shoot on slower machines (thx KS-10)
+              - Fixed possible crash on map reset
+              - Forgot to close an unconnected map link in one of the outtro maps
+
+20th May 2012 - Fixed bug that invisible warp zone warps could be clicked on (thx Daxar)
+              - Changed wording in one of the outtro scenes slightly (thx FrancesF)
+
+
+== Meatymod v1 ==
+
+19th May 2012 - Initial release
+

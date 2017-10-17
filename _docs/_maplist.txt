@@ -1,0 +1,105 @@
+intro warnings:
+----------------
+
+"First person who says touchscreen controls are better than a mouse gets shot in the face"
+"For your safety, plug it in."
+"A mouse isn't required, but neither is bathing. Think about it."
+"Gamepad vs mouse vs touchscreen YOU BE THE JUDGE! (spoiler: mouse wins)"
+
+
+how to start the mod? MUST BE WEIRD AND SICK AND TOTALLY IMPOSSIBLE OF COURSE
+----------------------
+
+add some text like:
+
+[black + fading text. maybe gameover-0004.png as bg?]
+"longing for adventure..."
+"nothing but an unfulfilled wish..."
+"Painful years of waiting for a change..."	( <---- pun towards Alec!! )
+[screen fade in, naija sleeping somewhere with a bottle in her hand. on land. rainbow soups nearby.]
+"In the meantime, Naija found a different way of entertaining herself."
+[colorful whirl fade in, change bg to gameover-0002.png]
+"One day, after too much booze and rainbow soup..."
+[wakes up slowly and looks around like whaaaaaaaat]
+"she went on a trip she would never forget."
+[sawblade pops out right in front of her. Ack!]
+[more, on the whole map]
+[Mia (ghost?) appears, warps away with her]   <--- this part needs improvement. not mad enough.
+[start of mod. colorful whirl full on.]
+[whirl goes away on level selection hub map]
+
+
+FIXME: The stuff above needs more brain. Or probably less. But it could make sense of nonsense, at least.
+
+
+Graphics possibly needed:
+- make naija sprite/animation with a bottle in her hand (so only need a bottle)
+- sunchair? Nah, not with the scene above. Seeing her in a sunchair and happily smashed isn't for the children.
+
+
+
+Map Themes:
+
+The reef       -- The forest
+The abyss      -- the hospital
+The desert     -- The salt factory
+The volcano    -- Hell
+The nightmare  -- The rapture
+
+
+
+Map order:
+
+-- reef --
+
+1. helloworld
+2. upward
+3. bladecatcher
+4. the cliff (some more saws)
+5. diverge
+6. the bit TODO
+7. safety third TODO- dissolving blocks
+8. tommy's cabin (introduce moving saws)
+9. blood mointain (walljump + saws)
+10. cactus jumper (saw shots)
+11. sardines in a tin (saws rotating in a box slowly)	
+
+-- abyss -- (actual mostly underwater maps)
+
+1. downward (first time back in water + getting dark)
+2. lightness and darkness (dark, lights, saw shooters)
+3. alone in the dark (jellys + other lighting stuff, but saws are a problem)
+4. source of light (sun temple charged crystal)
+5. dragging forward (all currents with saws)
+6. up, up, the mountain ahead (back into the light...)
+
+
+
+-- desert --
+
+1. dusted! (intro to sand)
+2. the pump (intro to gears)
+3. kill hill (sand + gears)
+4. cave story
+5. angry birds
+6. sand in the machinery (gears + saws)
+
+
+-- volcano --
+
+1. environmental damage (up a hill, into it. rains some fireballs)
+2. heavy working robot (the shaft with gears, already done)
+3. do a barrel roll (inside of a rolling thing, half in lava)
+4. shelter (raining fireballs)
+5. burning hate (shaft, saws, gears, and saw shooters up or down)
+6. throwing up (lava rises from the bottom)
+
+
+-- nightmare --
+1. The nightmare (nightmare map but with some twists)
+2. haunted (lots of things with instant kill shots, in mainarea, to home. walldash!)
+3. home?
+4. no escape (currents, gears, saws, saw shooters, around changed mainarea, back home)
+5. deja vu (=homehard)
+6. retribution (thirteenlair map, just really hard)
+

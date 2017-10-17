@@ -1,0 +1,28 @@
+[Emitter]
+Texture = Particles/Spark
+Shape = Point
+Blend = Add
+Width = 70
+Height = 70
+Life = 0.6
+RandomRotationRange = 360
+RandomVelocityMagnitude = 80
+RandomSpawnRadiousRange = 20
+Gravity = 0 400
+[Number]
+0 50
+[Alpha]
+0 1
+0.05 0.7
+0.6 0.7
+1.0 0
+[Color]
+0 1 0 0
+0.3 1 0.6 0.1
+0.6 1 0.6 0.1
+1 1 0 0
+[Rotation]
+0 180
+1 360
+[Scale]
+0 2 2

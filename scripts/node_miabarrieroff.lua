@@ -1,0 +1,1 @@
+-- I'm lazy once againdofile("scripts/node_miabarrier.lua")-- override thesev.on = falsefunction activate(me, ent)    v.on = trueend

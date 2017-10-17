@@ -1,0 +1,80 @@
+[Emitter]
+Texture = particles/cloud
+Shape = Point
+Width = 64
+Height = 64
+Blend = Add
+Life = 1.1
+RandomVelocityMagnitude = 40
+InitialVelocity = 0 100
+RandomRotationRange = 360
+Gravity = 0 -180
+CopyParentRotation = 1
+[Number]
+0 60
+[Color]
+0 1 0.6 0
+0.4 0.3 0.3 0.3
+1 0 0 0
+[Alpha]
+0 0
+0.01 0.5
+0.6 0.35
+1 0
+[Scale]
+0 0.7 0.7
+1 2.5 2.5
+
+[Emitter]
+Texture = particles/cloud
+Shape = Point
+Width = 64
+Height = 64
+Life = 2.3
+RandomVelocityMagnitude = 40
+InitialVelocity = 0 100
+RandomRotationRange = 360
+Gravity = 0 -210
+CopyParentRotation = 1
+[Number]
+0 20
+[Color]
+0 1 0.6 0
+0.2 0.3 0.3 0.3
+0.5 0.2 0.2 0.2
+[Alpha]
+0 0
+0.1 0
+0.3 0.4
+0.6 0.3
+1.0 0
+[Scale]
+0 0.5 0.5
+0.5 3 3
+1 6 6
+
+[Emitter]
+Texture = particles/cloud
+Shape = Point
+Width = 64
+Height = 64
+Blend = Add
+Life = 0.3
+RandomVelocityMagnitude = 40
+InitialVelocity = 0 140
+RandomRotationRange = 360
+Gravity = 0 -180
+CopyParentRotation = 1
+[Number]
+0 120
+[Color]
+0 1 0.8 0.5
+1 0.5 0.3 0.3
+[Alpha]
+0 0
+0.01 0.7
+0.6 0.5
+1 0
+[Scale]
+0 0.3 0.3
+1 1 1

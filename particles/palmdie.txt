@@ -1,0 +1,121 @@
+EmitterLife = 0.1
+
+[Emitter]
+Texture = particles/palmleaf-0001
+Shape = Point
+Width = 128
+Height = 128
+Life = 2
+RandomVelocityMagnitude = 10
+InitialVelocity = -50 -100
+Gravity = 0 300
+JustOne = 1
+RandomSpawnRadius = 50
+[Alpha]
+0 0
+0.1 1.0
+0.9 1.0
+1.0 0
+[Rotation]
+0 90
+1.0 270
+
+[Emitter]
+Texture = particles/palmleaf-0002
+Shape = Point
+Width = 256
+Height = 64
+Life = 2
+RandomVelocityMagnitude = 10
+InitialVelocity = 50 -100
+Gravity = 0 300
+JustOne = 1
+RandomSpawnRadius = 50
+[Alpha]
+0 0
+0.1 1.0
+0.9 1.0
+1.0 0
+[Rotation]
+0 -90
+1.0 -270
+
+[Emitter]
+Texture = particles/palmleaf-0003
+Shape = Point
+Width = 128
+Height = 128
+Life = 2
+RandomVelocityMagnitude = 10
+InitialVelocity = 50 -100
+Gravity = 0 300
+JustOne = 1
+RandomSpawnRadius = 50
+[Alpha]
+0 0
+0.1 1.0
+0.9 1.0
+1.0 0
+[Rotation]
+0 -90
+1.0 -180
+
+[Emitter]
+Texture = particles/palmleaf-0001
+Shape = Point
+Width = 128
+Height = 128
+Life = 2.3
+RandomVelocityMagnitude = 10
+InitialVelocity = -50 -100
+Gravity = 0 350
+JustOne = 1
+RandomSpawnRadius = 50
+[Alpha]
+0 0
+0.1 1.0
+0.9 1.0
+1.0 0
+[Rotation]
+0 180
+1.0 360
+
+[Emitter]
+Texture = particles/palmleaf-0002
+Shape = Point
+Width = 256
+Height = 64
+Life = 2.3
+RandomVelocityMagnitude = 10
+InitialVelocity = 50 -100
+Gravity = 0 350
+JustOne = 1
+RandomSpawnRadius = 50
+[Alpha]
+0 0
+0.1 1.0
+0.9 1.0
+1.0 0
+[Rotation]
+0 0
+1.0 -120
+
+[Emitter]
+Texture = particles/palmleaf-0003
+Shape = Point
+Width = 128
+Height = 128
+Life = 2.3
+RandomVelocityMagnitude = 10
+InitialVelocity = 50 -100
+Gravity = 0 350
+JustOne = 1
+RandomSpawnRadius = 50
+[Alpha]
+0 0
+0.1 1.0
+0.9 1.0
+1.0 0
+[Rotation]
+0 -90
+1.0 100

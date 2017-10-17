@@ -1,0 +1,178 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fswiss\fcharset0 ArialMT;}}
+{\colortbl ;\red3\green17\blue255;\red128\green0\blue128;\red0\green0\blue255;\red3\green151\blue38;\red255\green0\blue0;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\lang1031\f0\fs24\par
+=== Inspiration ===\par
+\par
+Cave Story: http://www.youtube.com/watch?v=EQQPzo2QLLg\par
+\b I dumped some stuff from the other file here.\par
+It's not given, up, just moving it out of the way to keep the other TODO cleaner\par
+and more focused.\par
+\b0\par
+\par
+=== THINKING TODO ===\par
+\par
+Possible warp zone ideas?\par
+\par
+How should the mod end after the last map was beaten?\par
+Naija getting away from rainbow soup and stuff? Probably. But how to present? Tropes?  \cf1 She could dump her baskets of rainbow mushrooms off a cliff or into a chasm, and say, "I'll never eat THOSE again!" \cf0 Why not, and then a druniad picks them up, cultivates them, and all mithalans will become stoners.\par
+Not quite, but something like you suggested. Definitely can't be a stoner ending, i would dislike that :P\par
+\par
+Actually, i'm thinking to strip the portal mechanic altogether for the main part and make it a bonus after beating the game first. Some additional maps or so. Problem is i have to override the shot data, which affects the mod globally, breaking nature form flower shot and energy form shot.\par
+Alternatively, there is the way to hack it in without the use of shots at all by capturing mouse buttons, but there is a problem: Originally, portal uses left and right mouse buttons for the two portals. In aquaria, naija will *always* jump if the left button is pressed, no matter what you do, unless the game is paused.\par
+Do you have *any* idea how this could be worked around?  \cf1 You are not using energy form anywhere in the mod, right? \cf0  \cf1 So I don't think it's so much of a problem that you are overriding the shot data.  Are you using nature for shots anywhere?  Like in the desert area can Naija climb up and avoid the parrots by shooting a vine?   (I kind of hope you do include a  portal area - that was fun the time you showed it to me.)\par
+\cf0 Energy is used, to light a pearl to open a door. This is only used on one map so it could be easily replaced. But i find it rather inconvenient having to switch between forms all the time; L/R mouse click would be so much nicer... Vine is used, but the flower is not. These are 2 different shots and so far i have only changed the flower not the vine. The vine is needed as stair/step sometimes.\par
+\cf1 Ok, then, how about keyboard commands for the portals.  Keys not used in Aquaria at all (if there are any :P)\par
+\cf0 Or something like Shift+L/R, but need to think about possible gamepad/touch controls too.\par
+Idea - dedicated portal form would be nice. Can't jump but shoot portals, and there IS a way how to do it. Detect form in the script, and whenever it's on and Naija is/was attached to wall, force zero velocity. Problem solved? Need to test this in a bit. Dirty.\cf1\par
+\cf0\par
+\par
+Just got an idea - can shoot left portal only when in air? There, clicking won't do anything... But it's a kludge nevertheless.\par
+Note to self --- how did yogoda implement walking on ground? Couldn't jump then either!\par
+\cf1\par
+\cf0\par
+ROCKET PROPELLED HOMING MUSHROOMS WHAAAT\par
+\par
+\par
+=== GFX TODO ===\par
+\par
+\par
+\cf2 Barrel tiles are made and look ok (imo)  Thickness increased by 25%.  I'd like to see the map with less of the red atmosphere, maybe about half as dense (because I think it would be more visually interesting)\'85 I took away what overlays that I could just to try it out (didn't save, of course), but it hardly changed.  Did you program the atmosphere in?  Also the redness is still present over the title screen when you quit.\par
+\cf3 Imho the overlay amount is just right.... Seems to me you didn't have nature form on - in any other form i blend in a pretty dense orange overlay, which is intentional, basically, "get out or die". And yes, it stays even when quitting the mod. Could call this an engine bug - it has 3 fade layers, but clears only the first on map change ;)\par
+The tiles look really good, and the collision feels better, too. Thank you! By the way, does my burned mithalas flag look any good? Tried to do this one without asking for help :P  \cf2 You're right, I didn't have nature form on - it looks fine now.  Burned Mithalas flag looks great!\cf1\par
+\par
+glowing edge tiles (plan to test these later tonight)  Experimenting with the dimensions of the edge tiles. Weird effects!\par
+\par
+\par
+lava bubble particle effect\par
+\par
+\cf0 Made programmer's art for the "barrel" in the barrelroll map. The edges are a bit too thin; the skeletal collisision detection reacts\par
+a bit awkward then, but overall it turned out quite nice as a feature.\par
+Do you have a cool idea how this gfx could be improved? Anything that fits?\par
+And how do you like the map? (epic parallax abuse again :P)   \cf1 Hey, this map is actually fun!  Very cool!   What material do you want the barrel to look like it's made of?  Some kind of super crystal or ceramic might be\cf0  \cf1 interesting...   I just made it across!!  The arrow on Naija helped a lot!\par
+\cf0 I have no idea what material it could be :P - something that isn't very likely to sink or burn immediately, maybe. Ceramic would work, but some sort of a metal frame would do too. Up to you :D As long as the edges are a tiny bit thicker but the room to jump is roughly the same.\par
+What, you made it? Unbelievable! But i didn't want to make the map harder :'(\par
+(Kiding of course. I'm happy with how it is now. And it even has a shortcut that allows to do it without nature form!)\par
+\par
+\par
+=== MAP LIST TODO ===\par
+\par
+-- volcano --\par
+\par
+1. environmental damage (up a hill, into it. rains some fireballs?)\par
+\tab\cf1 Finished unless you would like a far distant volcano or two on 4th or 5th parallax layer- easy to do, it you want.  I added a small shelf at the bottom of the volcano shaft that Naija hits when falling about 50% of the time.  I figure this will prevent people from totally hating you!  :P  The jumping across the map is now hard, but possible.  You will probably want to tweak!  \cf0 Looks good! And indeed, there's a few things i want to change before i'm 100% happy with it ;)  \cf2 I woke up in the middle of the night and realized there had to be a few more lavaballs, so I added them.  I have a thought about the final jumping down.  What if that death took you to the top of the shaft and not all the way back to the beginning?  Not so discouraging and easier for people to get jumping down practice...  I also added a burning tree at the top of the volcano (just for the visual effect) - remove if you don't want it there! \cf0 I removed it, but added two in other places. The visual effect is too good not to keep.\par
+And now i consider the map finished, and have to say, \b it could be my fav. one; not sure, but i like the feeling it emits. \b0 So much desperation in that one.. very strong. \cf4  Looks very good with the smoke!  :D\cf0\par
+\par
+-- warp zones ---\par
+\b Please have a look at the map "iwbtg", it's a fun map based off the game "I wanna be the guy", one of the hardest games that exist... (Video: http://www.youtube.com/watch?v=EzxJgWbm_3I -- skip to 2:20, the beginning is not important). Note the spikes, cherries, and trees :D \b0 As a side note,\cf5\b  I'm totally unable\b0  \cf0 to get past the 3rd screen (the one with the 2 moving clouds and a save point). It looks so easy in the video... touching one spike, cherry, or bascially almost anything means instant death. The person playing is incredibly good.\b\par
+\cf1\b0 I checked this out. Cute, very hard.  Music totally wrong for the action!   Are you keeping this in Meaty Mod?  And if so, do you want new graphics consistent with the rest of the mod? \cf6 Yes, i will keep this map, as an optional warpzone bonus map. Not required to play this one, and i doubt everyone will find it. The graphics and music are ripped directly from IWBTG, and will stay, for maximum recognition value. Players who know IWBTG will laugh when they see it ;)\par
+(To be honest, i know the music doesn't fit. But IWBTG has it in that zone, and that makes it the only possible music for this map :P)\cf1\par
+\cf0\b\par
+\b0 --after doing all--\par
+adjust map par times where missing\b\par
+\par
+\cf3\b0\par
+\cf0\b --- final boss ideas ---\b0\par
+\par
+This idea came up while chatting with Daxar.\par
+\par
+The boss should obviously be mia or some bigger shadowy nightmarish representation of her, after all. Seeing her in every map and such implies that.\par
+\par
+The boss fight could be split in 2 phases, or actually 2 totally different fights, each using a different mechanic.\par
+So we have meat boy mechanic and portal mechanic.\par
+\par
+First fight could be a small round closed map (like in the template mod), with mia floating in the center, shooting a portal at naija each couple of seconds. Entering the portal by accident causes to be warped into spikes.\par
+Now just have to think about how to implement that fight. Energy form spam is an option but i would rather like to have something else.\par
+Would be neat to jump into mia at some point to steal the gun from her; then the portal mechanic could start for a bunch of extra maps involving using the portals to teleport around and solve puzzles.  \cf1 This part is great!  Hope you can make it work.\par
+\cf0\par
+A possible 2nd boss fight would be mia again, this time equipped with a huge bazooka, shooting missiles. If you don't know the ending of Portal 1 then this won't say anything to you. Anyways, the basic idea would be to place portals on the wall in such a way that the missiles would be sent back to mia.   \cf1 And if you hit her you"ve won the level?\par
+\cf0 Almost. GLaDOS (the original portal boss, basically a robot made of metal eyes/balls and wires, hanging from the ceiling) gets damaged by a few rockets, starts falling apart, and drops a metal ball after each hit. These have then to be brought to a special spot in the room and thrown into a firery pit. This ultimately destroys GLaDOS.\par
+Of course this is totally not applicable to mia (unless you'd want to blow mia to bits - please not), so have to think about something else.\par
+Possibly knocking her against the wall really hard, but what then? It should somehow fit to a "waking up"-scene afterwards, when the mushroom samba is over and naija freed from the illusion.\par
+\par
+Side note: Having watched Avatar (the movie), i had this idea of a larger mia "avatar" on the shadow layer; having the room light up and darken periodically, whenever she casts a spell. Basically, the dark mia is only visible when the room is dark, and sun form is off. But this is only visuals so far, no idea what mechanics could work with it. Random thoughts.\cf1\par
+\cf0\par
+Just unsure if i get all of this done in time, considering i want to be done as soon as possible... this thesis is going to blow my mind. At least that's how i feel right now, may get better in a bit.\par
+\par
+\cf1 These two boss levels sound very cool and fun, but really time consuming!!  :P\par
+\par
+(I have a question - I wanted to see Naija's script to see how her cape is attached, but I can't find her script in the entity scripts in package contents/resources.  Where is it? ) \cf0\par
+\par
+Naija does not have a script, her complete behavior, movement, etc is hardcoded. The cape is in fact a hair, but you can't access it via script either - only via avatar_toggleCape(true/false).\par
+I have some future plans to make some parts of naija scriptable, for example being hit by a shot.\par
+Or scripted ingredients, that can do something when picked up, dropped, cooked, or eaten. At least that's the plan, will do it when i need it (i doubt before my thesis is done).\par
+\par
+\par
+\par
+\cf3 -------------------------------\par
+\par
+\cf0 Finally came up with a cool idea for the final boss that does not involve portals.\par
+It'll be a 3-dimensional black sphere glowing inside, summoned by Mia after cornering her.\par
+\par
+Mia then hides behind a door, teleports the key away, and watches the fight.\par
+The sphere will have different phases/forms:\par
+- saw\par
+- missile launcher\par
+- fire/lava\par
+- darkness\par
+- void (sucking)\par
+\par
+... along with the dangers associated to each. The sphere will follow naija all the time, but physically different in each phase\par
+(i.e. saw is very straight, lava-> move with some inertia, etc)\par
+\par
+the map will change according to each phase:\par
+Fire: remove background layer, to make lava visible. Then the water goes down and lava comes up.\par
+Missile: Water at half height\par
+Saw: Water at 3/4 height\par
+Darkness: During transition to another phase, while the map updates. Also final phase after receiving enough damage.\par
+Void: Sucks in everything, need to cling to wall\par
+\par
+The map will contain obstacles corresponding to each phase.\par
+\par
+\par
+The goal is to damage the sphere by hitting it with the corresponding obstacle (lure it into a saw shooter, fireball, etc).\par
+Whenever the sphere receives damage, it changes form, and grows a bit, so it's harder to avoid.\par
+\par
+When hit often enough, it summons the key that unlocks the door to Mia.\par
+The goal is to use the sphere's inertia to build up a good acceleration directed towards Mia, and slamming the sphere into her.\par
+\par
+This will make everything go kaboom and Naija wakes up.\par
+\par
+\cf1 This is a VERY cool idea!!  But, OMG, the programming involved must be extensive!  If you'd like any graphics - spheres, etc. just say so :)\cf0\par
+\par
+Already have ;)\par
+I'm using my 3D-code + particle effects for it so it looks really evil.\par
+And compared to the mineoctoboss the script is quite simple so far... not sure how far i'll have to go with this one.\par
+\par
+Hm -- what about bindable missiles/fireballs? To throw them at it? Because otherwise this \b might \b0 get a \b little bit\b0  difficult.\par
+Nevermind, it works fine.\par
+\par
+Ha, getting there. now it's half the size of the mineoctoboss.\par
+(500 lines -- mineocto has 1000)   \cf1 Heh, heh, I'll bet by the end it's more than mineoctoboss...\par
+\par
+\cf0 Have a small gfx request -- for the boss ending scene, would be cool to have a mia with eyes closed head texture... like naija head pain texture.\par
+Please? :D      \cf1 Sure!\par
+\cf6 Yay, thanks for the gfx!\par
+Got them implemented and the script almost finished.\par
+Just a few tweaks left (movement and end scene basically).\par
+Right now it's as follows:\par
+\par
+As soon as the sphere is very close to Mia, she makes the shock expression.\par
+Then the sphere goes towards her, locks her in, mia struggles+pains, sphere shrinks a bit, mia turns all black, sphere glow stops, and mia disappears (first I made her explode but that looked rude and not really good).\par
+The sphere stays small and glowless for a second, then enlarges very fast, glows, encloses naija, animation etc, and after 2 seconds the screen turns all white and then fades to black.\par
+At that point it would warp to the waking-up map, but that isn't done yet.\par
+\par
+You can try playing it yourself, right now the sphere drops the key after one hit (will be 8-10 later). Shouldn't be so hard...\par
+\cf0\par
+\cf3\par
+\cf0\b --- ending ideas ---\par
+\b0 (some random possible scenes i had in mind)\b\par
+\par
+\b0 1) No idea yet. Maybe naija waking up in a strange place and making her way back to the veil? Any idea about a cool theme that wasn't seen in the original aquaria yet? Something like my "seaweed" maps but with more colors instead of only green?\par
+\cf3\par
+\cf0 2) [veil] Naija finds Li near the mushrooms and pushes him away. <fade-out-in>. Naija back with a grouper, pours the mushrooms into the water, grouper eats them. Grouper grows a bit and starts changing colors, then shrinks and floats away (like the first boss in this video: http://www.youtube.com/watch?v=7Z6UeFNGdxo&feature=related).\par
+\par
+3) Naija happy with Li? Druniads cultivating mushrooms? (the real) Mia making a plot? I have no idea.\par
+\par
+\cf3\par
+}
+ 

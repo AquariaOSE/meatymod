@@ -1,0 +1,38 @@
+[Emitter]
+Texture = Particles/Sparkle
+Shape = Point
+Width = 64
+Height = 64
+Life = 0.6
+RandomRotationRange = 360
+SpawnLocal = 1
+[Number]
+0 100
+[Color]
+0 0 0 0
+[Alpha]
+0 0
+0.1 0.3
+0.5 0.9
+1.0 1
+[Scale]
+0 15 15
+1 0.1 0.1
+[Emitter]
+Texture = Particles/softring
+Shape = Point
+Width = 64
+Height = 64
+Life = 2
+RandomRotationRange = 360
+JustOne = 1
+SpawnLocal = 1
+[Color]
+0 0 0 0
+[Alpha]
+0 0
+0.5 0.8
+1 1
+[Scale]
+0 20 20
+1 0 0

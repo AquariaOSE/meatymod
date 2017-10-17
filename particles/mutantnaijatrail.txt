@@ -1,0 +1,52 @@
+[Emitter]
+Texture = Particles/Zaps
+Shape = Point
+Blend = Add
+Width = 38
+Height = 38
+Life = 0.7
+RandomRotationRange = 360
+RandomVelocityMagnitude = 0
+GroupRender = 1
+[Number]
+0 100
+[Alpha]
+0 0.8
+0.2 0.8
+0.5 0.5
+1.0 0
+[Scale]
+0 1 1
+0.4 1 1
+1 0.2 0.2
+[Color]
+0 0.1 0.5 0.6
+0.1 0.1 0.5 0.6
+0.5 0.1 0.1 0.2
+[Emitter]
+Texture = Particles/Spiral
+Shape = Point
+Blend = Add
+Width = 24
+Height = 24
+Life = 0.5
+RandomRotationRange = 0
+RandomVelocityMagnitude = 0
+GroupRender = 1
+[Number]
+0 20
+[Rotation]
+0 0
+1 360
+[Alpha]
+0 0.1
+0.1 1
+1.0 0
+[Scale]
+0 1 1
+1 4 4
+[Color]
+0 0.5 0.6 0.9
+0.1 0.5 0.6 1
+1 0.5 0.5 0.5
+

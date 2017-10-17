@@ -1,0 +1,9 @@
+DamageType = DT_AVATAR_ENERGYBLAST
+Damage = 1
+MaxSpeed = 1
+Invisible = 1
+LifeTime = 0.05
+CollideRadius = 8
+CheckDamageTarget = 0
+AlwaysDoHitEffects = 0
+HitObs = 0

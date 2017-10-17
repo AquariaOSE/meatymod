@@ -1,0 +1,19 @@
+[Emitter]
+Blend = Add
+Texture = Particles/Glow
+Shape = Point
+Width = 16
+Height = 16
+Life = 5
+RandomAlphaMod = 0.2 1
+RandomSpawnRadiusRange = 128
+RandomVelocityMagnitude = 8
+[Number]
+0 12
+[Alpha]
+0 0
+0.05 0.5
+0.5 0.5
+1 0
+[Color]
+0 0.4 0.4 1

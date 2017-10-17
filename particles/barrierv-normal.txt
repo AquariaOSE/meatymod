@@ -1,0 +1,44 @@
+[Emitter]
+Texture = Particles/laser
+Shape = Point
+Blend = Add
+Width = 1300
+Height = 64
+Life = 0.7
+[Number]
+0 2
+[Alpha]
+0 0
+0.05 0.5
+0.5 0.5
+1.0 0
+[Color]
+0 0 0 1
+0.3 0. 0.75 1
+0.8 0.5 0.5 1
+1 0.9 1 1
+[Rotation]
+0 90
+1 97
+[Emitter]
+Texture = Particles/laser
+Shape = Point
+Blend = Add
+Width = 1300
+Height = 64
+Life = 0.7
+[Number]
+0 2
+[Alpha]
+0 0
+0.05 0.5
+0.5 0.5
+1.0 0
+[Color]
+0 0 0 1
+0.3 0. 0.75 1
+0.8 0.5 0.5 1
+1 0.9 1 1
+[Rotation]
+0 90
+1 83
